@@ -19,6 +19,13 @@ body {
     background-color: #fff;
 }
 
+#login-form {
+    width:400px;
+    padding:20px;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
 .title {
     margin-bottom: 20px;
 }
@@ -54,6 +61,13 @@ body {
      visibility: hidden;
  }
 
+ /* .input-group #envelope {
+    position:absolute;
+    right:10px;
+    top:35px;
+    visibility: visible;
+} */
+
 
  .success i.fa-check-circle{
      visibility: visible;
@@ -64,6 +78,13 @@ body {
     visibility: visible;
     color:red;
 }
+
+/* .error i.fa-exclamation-triangle {
+    visibility: visible;
+    color:red;
+} */
+
+
 
 
  .input-group p {
@@ -85,7 +106,6 @@ body {
      text-transform: uppercase;
      border:none;
  }
-
 
 
 
