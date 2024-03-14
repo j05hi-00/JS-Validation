@@ -24,6 +24,15 @@ function isFormValid(){
             result = false;
         }
     });
+    if(result==true)
+    {
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem("username",emailInput.value);
+            localStorage.setItem("password",passwordInput.value);
+          } else {
+            console.log("Sorry, your browser does not support Web Storage...");
+          }
+    }
     return result;
 }
 
@@ -86,6 +95,5 @@ function isEmailValid(email){
 
     return reg.test(email);
 }
-
 
 
