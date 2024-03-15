@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inbox</title>
-    <link rel="stylesheet" href="style.css">
+    <script>
+        function logout(e)
+        {
+            localStorage.clear();
+        }
+    </script>
 </head>
-<body>
+<body style="background-color: chocolate";>
     <h1>Welcome to CMRIT</h1>
     <br>
-    <a href="index.html">Back to Home</a>
+    <br>
+    <a href="index.html" onclick="logout(event)">Back to Home</a>
 </body>
 </html>
